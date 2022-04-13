@@ -7,4 +7,4 @@ switch (`$(touser)`.toLowerCase()) {
     break;
   default:
     `$(twitch $(touser) "Check out {{name}}, they were last playing {{game}} over at {{url}}")`;
-};
+}
