@@ -1,1 +1,10 @@
-
+switch (`$(usr)`) {
+  case `juliengorilla`.toLowerCase():
+    "Check out the waiting room... I mean $(usr)'s channel over at $(url), they were last playing $(game)";
+    break;
+  case `jimthechair`.toLowerCase():
+    "Check out the communities favorite chair, $(usr) over at $(url), they were last playing $(game)";
+    break;
+  default:
+    "Check out $(usr), they were last playing $(url) over at $(game)";
+}
