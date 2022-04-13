@@ -1,10 +1,10 @@
 switch (`$(touser)`.toLowerCase()) {
   case `juliengorilla`.toLowerCase():
-    $(twitch $(touser) "Check out the waiting room... I mean {{name}}'s channel over at {{url}}, they were last playing {{game}}");
+    `$(twitch $(touser) "Check out the waiting room... I mean {{name}}'s channel over at {{url}}, they were last playing {{game}}")`;
     break;
   case `jimthechair`.toLowerCase():
-    $(twitch $(touser) "Check out the communities favorite chair, {{name}} over at {{url}}, they were last playing {{game}}");
+    `$(twitch $(touser) "Check out the communities favorite chair, {{name}} over at {{url}}, they were last playing {{game}}")`;
     break;
   default:
-    $(twitch $(touser) "Check out {{name}}, they were last playing {{game}} over at {{url}}");
+    `$(twitch $(touser) "Check out {{name}}, they were last playing {{game}} over at {{url}}")`;
 }
